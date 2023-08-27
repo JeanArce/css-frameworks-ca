@@ -1,5 +1,7 @@
 @import 'variables';
 
+$dark: #eab5c0;
+
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
 @mixin border-left-radius($radius) {
@@ -18,12 +20,8 @@
 
 
 
-
-body {
-    background-color: #9A616D;
-
-
-
+.login-body {
+    background-color: $dark
 }
 
 .login-container {
