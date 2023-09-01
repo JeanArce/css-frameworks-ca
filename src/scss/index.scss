@@ -14,27 +14,12 @@
 
 .login-container {
 
-    // width: 100%;
-    // height: 100vh;
-    // display: flex;
-    // align-items: center;
-    // justify-content: center;
-
-
-    // @media (max-width: 767px) {
-    //     height: auto;
-    // }
-
+   
     .login-inner {
         width: 600px;
        
-        //background-color: #FFFFFF;
-        //border-radius: 10px;
-
+     
         img {
-
-
-        
 
             @media (min-width: 768px) {
                @include border-left-radius(10px);
@@ -66,7 +51,6 @@
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    //margin: 0px auto;
     overflow: hidden;
 
     img {
@@ -86,21 +70,12 @@
         .follower-image-container {
             width: 50px;
             height: 50px;
-            //border-radius: 50%;
             background-color: $dark;
-            // display: flex;
-            // align-items: center;
-            // justify-content: center;
         }
 
         .follower-image-content {
-            // display: flex;
-            // flex-direction: column;
-          
+         
             p {
-                //text-align: left;
-               
-
                 &:last-child {
                     color: rgba(0, 0, 0, 0.5);
                 }
